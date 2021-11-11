@@ -1,5 +1,5 @@
 const dbClient = require('mongoose');
-const url= "mongodb+srv://sasuke:sasukeuchiha@cluster0.zenvb.mongodb.net/project";
+const url= "mongodb+srv://sasuke:<password>@cluster0.zenvb.mongodb.net/project";
 
 dbClient.connect(url, {
     useNewUrlParser: true,
